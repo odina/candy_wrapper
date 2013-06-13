@@ -6,7 +6,7 @@ module Palmade::CandyWrapper
     DOWN_HTTP_CODES = [ 500, 502 ]
 
     TWITTER_API_SITE = "api.twitter.com".freeze
-    TWITTER_API_VERSION = "1".freeze
+    TWITTER_API_VERSION = "1.1".freeze
 
     HTTP = Palmade::CandyWrapper.http
     HTTP_RESPONSE = Palmade::CandyWrapper.http::Response
